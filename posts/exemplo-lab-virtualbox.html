@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Como montar seu primeiro laboratório de cybersecurity | Daniel</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main>
+    <div class="window">
+      <div class="titlebar">
+        <span class="name">exemplo-lab-virtualbox.html - Navegador</span>
+        <span class="tb-btns" aria-hidden="true"><span>_</span><span>□</span><span>×</span></span>
+      </div>
+      <div class="window-body">
+        <div class="sunken">
+          <article>
+            <h1>Como montar seu primeiro laboratório de cybersecurity</h1>
+            <p class="meta">26/11/2026 · <span class="tag">laboratorio</span><span class="tag">iniciante</span></p>
+
+            <p>Este é um post de exemplo. Apague o conteúdo e escreva o seu, usando a mesma estrutura.</p>
+
+            <h2>Por que ter um laboratório?</h2>
+            <p>Um laboratório próprio permite praticar sem risco e sem infringir a lei. Você pode quebrar, errar e recomeçar quantas vezes quiser.</p>
+
+            <h2>O que você vai precisar</h2>
+            <ul>
+              <li>Um computador com pelo menos 8 GB de RAM</li>
+              <li>VirtualBox ou VMware Workstation Player</li>
+              <li>Uma ISO do Kali Linux e uma máquina vulnerável (por exemplo, Metasploitable)</li>
+            </ul>
+
+            <h2>Verificando a rede entre as VMs</h2>
+            <p>Depois de configurar as duas VMs na mesma rede interna, confirme que elas se enxergam:</p>
+<pre><code>ip a
+ping -c 4 192.168.56.101</code></pre>
+
+            <blockquote>
+              <strong>Aviso:</strong> pratique somente em ambientes seus ou autorizados. Testar sistemas de terceiros sem permissão é crime.
+            </blockquote>
+
+            <h2>Próximos passos</h2>
+            <p>Depois do laboratório pronto, o próximo passo é resolver máquinas no TryHackMe e Hack The Box e documentar cada uma aqui, em forma de write-up.</p>
+          </article>
+          <a class="btn back" href="../blogs.html">&lt; Voltar</a>
+        </div>
+      </div>
+      <div class="statusbar"><span>Pronto</span><span>Pratique só em ambiente próprio ou autorizado</span></div>
+    </div>
+  </main>
+
+  <nav class="taskbar" aria-label="Principal">
+    <a class="start" href="../index.html"><span class="logo"></span>Iniciar</a>
+    <a class="task" href="../index.html">🏠 Início</a>
+    <a class="task" href="../whoami.html">👤 whoami</a>
+    <a class="task" href="../blogs.html" aria-current="page">📄 Posts</a>
+    <span class="tray" id="clock">00:00</span>
+  </nav>
+  <script src="../script.js"></script>
+</body>
+</html>
